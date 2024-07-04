@@ -1,0 +1,15 @@
+/* ATTRIBUTION FOOTER SECTION */
+.attribution {
+    padding-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+    font-weight: var(--font-400);
+    color: var(--dark-charcoal);
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+

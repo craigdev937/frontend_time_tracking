@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
-import Rock from "/Rock.jpg";
+import { Main } from "../containers/Main";
+import { Footer } from "../components/Footer";
 
 export const App = () => {
     return (
         <React.Fragment>
-            <img 
-                src={Rock} alt="Rock"
-                height={"500px"} width={"auto"} 
-            />
+            <Main />
+            <Footer />
         </React.Fragment>
     );
 };
