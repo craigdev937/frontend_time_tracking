@@ -1,0 +1,12 @@
+.ellipsis {
+    width: 18px;
+    height: 5px;
+}
+
+.ellipsis:hover {
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+}
+
+
+

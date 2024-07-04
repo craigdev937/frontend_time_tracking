@@ -1,5 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --white: hsl(100, 100%, 100%);
+    --red-WORK: hsl(15, 100%, 70%);
+    --sky-PLAY: hsl(195, 74%, 62%);
+    --yellow-SELF: hsl(43, 84%, 65%);
+    --grene-EXERCISE: hsl(145, 58%, 55%);
+    --red-STUDY: hsl(348, 100%, 68%);
+    --lilac: hsl(236, 100%, 87%);
+    --blue: hsl(235, 45%, 61%);
+    --cobalt: hsl(246, 80%, 60%);
+    --violet-SOCIAL: hsl(264, 64%, 52%);
+    --navy: hsl(235, 46%, 20%);
+    --dark: hsl(226, 43%, 10%);
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: steelblue;
+    background: var(--dark);
+    color: var(--white);
+    font-family: "Rubik", sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 
