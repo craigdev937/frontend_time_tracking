@@ -13,6 +13,9 @@
     --violet-SOCIAL: hsl(264, 64%, 52%);
     --navy: hsl(235, 46%, 20%);
     --dark: hsl(226, 43%, 10%);
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
 }
 
 *, *::before, *::after {
@@ -33,5 +36,10 @@ main {
     place-items: center;
 }
 
-
+/* MEDIA QUERY */
+@media (min-width: 768px) {
+    main {
+        grid-template-areas: "student info";
+    }
+}
 

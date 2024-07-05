@@ -1,0 +1,117 @@
+.jeremy {
+    max-width: 400px;
+    background-color: var(--navy);
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.jeremy__student {
+    position: relative;
+    background-color: var(--cobalt);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: -30px;
+    min-height: 125px;
+    z-index: 999;
+}
+
+.jeremy__image {
+    width: 60px;
+    height: auto;
+    border: 2px solid var(--white);
+    border-radius: 100%;
+}
+
+.jeremy__report {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin-left: 15px;
+}
+
+.jeremy__text {
+    font-size: 0.9rem;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.jeremy__name {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: var(--fw-400);
+}
+
+.jeremy__info {
+    z-index: 1;
+    list-style-type: none;
+    padding: 50px 0 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--navy);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.info__links {
+    cursor: pointer;
+    color: var(--blue);
+}
+
+.info__links:hover {
+    color: var(--white);
+}
+
+.active {
+    color: var(--white);
+}
+
+@media (min-width: 768px) {
+    .jeremy {
+        grid-area: "student";
+        margin-top: 0;
+        min-width: 200px;
+        max-width: 200px;
+    }
+
+    .jeremy__student {
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 30px 25px;
+        min-height: 365px;
+    }
+
+    .jeremy__image {
+        margin-bottom: 20px;
+    }
+
+    .jeremy__name {
+        font-size: 2rem;
+    }
+
+    .jeremy__report {
+        margin: 0;
+    }
+
+    .jeremy__info {
+        gap: 1rem;
+        flex-grow: 1;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        padding: 50px 25px;
+    }
+}
+
+@media (min-width: 1075px) {
+    .jeremy__student {
+        min-height: 200px;
+    }
+}
+
+
+
